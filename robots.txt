@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://steven-golfsim.github.io/golf-simulator-guide/sitemap.xml
