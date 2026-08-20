@@ -1,104 +1,538 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Golf simulator guides, research, and venue data. Find indoor golf simulator venues across the US at GolfSim.co.">
-    <title>Golf Simulator Guide | GolfSim.co</title>
-    <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
-        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, sans-serif; line-height: 1.7; color: #1a1a1a; background: #fff; max-width: 720px; margin: 0 auto; padding: 40px 20px; }
-        h1 { font-size: 32px; line-height: 1.2; margin-bottom: 8px; color: #0b2818; }
-        .tagline { font-size: 17px; color: #555; margin-bottom: 32px; }
-        h2 { font-size: 22px; margin-top: 36px; margin-bottom: 16px; color: #0b2818; }
-        p { margin-bottom: 16px; font-size: 16px; }
-        a { color: #0b6e3d; text-decoration: none; }
-        a:hover { text-decoration: underline; }
-        hr { border: none; border-top: 1px solid #e0e0e0; margin: 32px 0; }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Independent golf simulator guides for finding local venues, planning a visit, and building a better home setup.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <link rel="canonical" href="https://steven-golfsim.github.io/golf-simulator-guide/">
+  <meta property="og:title" content="Golf Simulator Guide | Find, Play and Build">
+  <meta property="og:description" content="Clear, practical guidance for finding golf simulators near you and getting more from indoor golf.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://steven-golfsim.github.io/golf-simulator-guide/">
+  <meta name="twitter:card" content="summary">
+  <title>Golf Simulator Guide | Find, Play and Build</title>
+  <link rel="stylesheet" href="styles.css">
 
-        .card-grid { display: grid; grid-template-columns: 1fr; gap: 20px; margin-top: 20px; }
-        .card { border: 1px solid #e0e0e0; border-radius: 8px; padding: 24px; transition: box-shadow 0.2s; }
-        .card:hover { box-shadow: 0 2px 12px rgba(0,0,0,0.08); }
-        .card h3 { font-size: 18px; margin-bottom: 8px; }
-        .card h3 a { color: #0b2818; }
-        .card h3 a:hover { color: #0b6e3d; }
-        .card p { font-size: 14px; color: #555; margin-bottom: 12px; }
-        .card .read-link { font-size: 14px; font-weight: 600; color: #0b6e3d; }
-
-        .resources { margin-top: 36px; }
-        .resources ul { list-style: none; padding: 0; }
-        .resources li { margin-bottom: 8px; }
-        .resources a { font-size: 15px; }
-
-        .cta-box { background: #f0f9f4; border-left: 4px solid #0b6e3d; padding: 20px 24px; margin: 32px 0; border-radius: 0 8px 8px 0; }
-        .cta-box a { font-weight: 600; }
-
-        footer { margin-top: 48px; padding-top: 24px; border-top: 1px solid #e0e0e0; font-size: 13px; color: #888; }
-        footer a { color: #0b6e3d; }
-    </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Golf Simulator Guide",
+    "url":"https://steven-golfsim.github.io/golf-simulator-guide/",
+    "description":"Independent guides to finding, using and building golf simulators."
+  }
+  </script>
 </head>
+
 <body>
-    <h1>Golf Simulator Guide</h1>
-    <p class="tagline">Guides, research, and venue data for indoor golf simulators across the US.</p>
 
-    <p>This site brings together articles and tools from <a href="https://golfsim.co">GolfSim.co</a>, the largest free directory of indoor golf simulator venues in the United States. Search 3,800+ venues across 2,200+ cities in all 50 states.</p>
+  <header class="site-header">
+    <a class="brand" href="index.html">
+      <span class="brand-mark" aria-hidden="true">G</span>
+      Golf Simulator Guide
+    </a>
 
-    <hr>
+    <nav aria-label="Primary navigation">
+      <a href="#explore">Explore</a>
+      <a href="#guides">Guides</a>
+      <a href="#about">About</a>
+    </nav>
 
-    <h2>Articles</h2>
+    <a class="nav-cta" href="articles/golf-simulators-near-me.html">
+      Find a simulator
+    </a>
+  </header>
 
-    <div class="card-grid">
-        <div class="card">
-            <h3><a href="articles/home-golf-simulator.html">Home Golf Simulator Setup Guide</a></h3>
-            <p>What you need to know about setting up a golf simulator at home, from space requirements to technology choices.</p>
-            <a class="read-link" href="articles/home-golf-simulator.html">Read article &rarr;</a>
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-copy">
+
+        <p class="pill">Independent indoor golf resource</p>
+
+        <h1>
+          Find, play and build a better
+          <em>golf simulator</em> experience
+        </h1>
+
+        <p class="intro">
+          Straightforward guides for finding a local bay, choosing the right
+          venue, practicing with purpose, and planning a home setup.
+        </p>
+
+        <div class="finder-box">
+          <span aria-hidden="true">⌖</span>
+          <span>Looking for golf simulators near you?</span>
+          <a href="articles/golf-simulators-near-me.html">
+            Open the local guide
+          </a>
         </div>
 
-        <div class="card">
-            <h3><a href="articles/golf-simulators-near-me.html">Golf Simulators Near Me</a></h3>
-            <p>How to find indoor golf simulator venues in your area, what to look for, and how to compare options.</p>
-            <a class="read-link" href="articles/golf-simulators-near-me.html">Read article &rarr;</a>
+        <div class="hero-links">
+          <a class="button" href="articles/golf-simulators-near-me.html">
+            Find local simulators
+          </a>
+
+          <a class="quiet-link" href="#guides">
+            Browse all guides →
+          </a>
         </div>
 
-        <div class="card">
-            <h3><a href="articles/best-golf-grips-for-arthritis.html">Best Golf Grips for Arthritis</a></h3>
-            <p>The right grip can make the difference between finishing a round comfortably and giving up after nine. Here is what to look for in size, softness, and tack.</p>
-            <a class="read-link" href="articles/best-golf-grips-for-arthritis.html">Read article &rarr;</a>
+      </div>
+
+
+      <div class="sim-visual"
+           aria-label="Stylized indoor golf simulator illustration">
+
+        <div class="screen">
+          <div class="sky"></div>
+          <div class="fairway"></div>
+          <div class="flag"></div>
         </div>
+
+        <div class="mat">
+          <span></span>
+        </div>
+
+      </div>
+
+
+      <div class="stats" aria-label="Site highlights">
+
+        <div>
+          <strong>7</strong>
+          <span>Practical guides</span>
+        </div>
+
+        <div>
+          <strong>100%</strong>
+          <span>Free to read</span>
+        </div>
+
+        <div>
+          <strong>0</strong>
+          <span>Paid rankings</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <section id="explore" class="section">
+
+      <div class="section-heading split-heading">
+
+        <div>
+          <p class="eyebrow">Browse by goal</p>
+          <h2>Start with what you want to do</h2>
+        </div>
+
+        <p>
+          Indoor golf can be a practice tool, a social outing, or a home
+          project. Pick the path that fits today.
+        </p>
+
+      </div>
+
+
+      <div class="category-grid">
+
+        <a class="category-card featured"
+           href="articles/golf-simulators-near-me.html">
+
+          <span>⌖</span>
+
+          <h3>Find a venue</h3>
+
+          <p>
+            Compare nearby bays, prices, technology, hours, and amenities.
+          </p>
+
+          <b>Explore local golf →</b>
+
+        </a>
+
+
+        <a class="category-card"
+           href="articles/home-golf-simulator.html">
+
+          <span>⌂</span>
+
+          <h3>Build at home</h3>
+
+          <p>
+            Plan your room, equipment, safety clearances, and budget.
+          </p>
+
+          <b>Plan a setup →</b>
+
+        </a>
+
+
+        <a class="category-card"
+           href="articles/golf-simulators-near-me.html#choose">
+
+          <span>◎</span>
+
+          <h3>Choose confidently</h3>
+
+          <p>
+            Know what to check before you reserve a simulator bay.
+          </p>
+
+          <b>See the checklist →</b>
+
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <section class="section how-it-works">
+
+      <div class="section-heading">
+
+        <p class="eyebrow">A simple approach</p>
+
+        <h2>From search to first swing</h2>
+
+      </div>
+
+
+      <div class="steps">
+
+        <article>
+
+          <span>01</span>
+
+          <h3>Search your area</h3>
+
+          <p>
+            Use a specialist directory or map to identify real indoor-golf
+            venues close to you.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <span>02</span>
+
+          <h3>Compare the details</h3>
+
+          <p>
+            Check technology, pricing, bay size, club rentals, lessons, food,
+            and current hours.
+          </p>
+
+        </article>
+
+
+        <article>
+
+          <span>03</span>
+
+          <h3>Book the right session</h3>
+
+          <p>
+            Match the venue and booking length to practice, coaching, a round,
+            or a group event.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <section id="guides" class="section">
+
+      <div class="section-heading split-heading">
+
+        <div>
+          <p class="eyebrow">Guides & articles</p>
+          <h2>Useful answers, plainly written</h2>
+        </div>
+
+        <p>
+          Focused advice designed to help you make a decision—not keep
+          scrolling.
+        </p>
+
+      </div>
+
+
+      <div class="guide-grid">
+
+
+        <article class="guide-card primary-guide">
+
+          <p class="meta">
+            Local guide · 10 min read
+          </p>
+
+          <h3>
+            <a href="articles/golf-simulators-near-me.html">
+              Golf Simulators Near Me: How to Find the Right Venue
+            </a>
+          </h3>
+
+          <p>
+            Search smarter, compare important details, avoid booking mistakes,
+            and find the right indoor-golf experience nearby.
+          </p>
+
+          <a class="text-link"
+             href="articles/golf-simulators-near-me.html">
+            Read the guide →
+          </a>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <p class="meta">
+            Home setup · 6 min read
+          </p>
+
+          <h3>
+            <a href="articles/home-golf-simulator.html">
+              How to Build a Golf Simulator at Home
+            </a>
+          </h3>
+
+          <p>
+            Learn what equipment you need, how much space to allow, and where
+            to spend your budget first.
+          </p>
+
+          <a class="text-link"
+             href="articles/home-golf-simulator.html">
+            Read the guide →
+          </a>
+
+        </article>
+
+
+        <!-- NEW ARTICLE -->
+
+        <article class="guide-card">
+
+          <p class="meta">
+            Simulator technology · 6 min read
+          </p>
+
+          <h3>
+            <a href="articles/how-golf-simulators-work.html">
+              How Do Golf Simulators Work?
+            </a>
+          </h3>
+
+          <p>
+            Learn how launch monitors capture real golf shots and how simulator
+            software turns ball data into realistic virtual flight, distance,
+            and course play.
+          </p>
+
+          <a class="text-link"
+             href="articles/how-golf-simulators-work.html">
+            Read the guide →
+          </a>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <p class="meta">
+            Beginner fundamentals · 5 min read
+          </p>
+
+          <h3>
+            <a href="articles/how-to-swing-a-golf-club.html">
+              How to Swing a Golf Club in 6 Simple Steps
+            </a>
+          </h3>
+
+          <p>
+            Build a balanced swing with a concise guide to grip, setup,
+            backswing, impact and focused simulator practice.
+          </p>
+
+          <a class="text-link"
+             href="articles/how-to-swing-a-golf-club.html">
+            Read the guide →
+          </a>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <p class="meta">
+            Practice strategy · 4 min read
+          </p>
+
+          <h3>
+            <a href="articles/can-you-improve-golf-on-a-simulator.html">
+              Can You Improve Your Golf on a Simulator?
+            </a>
+          </h3>
+
+          <p>
+            Learn which skills improve indoors, what simulator practice cannot
+            replace, and how to structure a focused session.
+          </p>
+
+          <a class="text-link"
+             href="articles/can-you-improve-golf-on-a-simulator.html">
+            Read the guide →
+          </a>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <p class="meta">
+            Equipment guide · 4 min read
+          </p>
+
+          <h3>
+            <a href="articles/best-golf-grips-for-sweaty-hands.html">
+              Best Golf Grips for Sweaty Hands
+            </a>
+          </h3>
+
+          <p>
+            Compare moisture-resistant grip types and learn how sizing, gloves,
+            cleaning and timely replacement improve traction.
+          </p>
+
+          <a class="text-link"
+             href="articles/best-golf-grips-for-sweaty-hands.html">
+            Read the guide →
+          </a>
+
+        </article>
+
+
+        <article class="guide-card">
+
+          <p class="meta">
+            Wedge guide · 4 min read
+          </p>
+
+          <h3>
+            <a href="articles/what-degree-is-an-approach-wedge.html">
+              What Degree Is an Approach Wedge?
+            </a>
+          </h3>
+
+          <p>
+            Understand typical approach-wedge loft, common club names, wedge
+            spacing and how to measure real carry-distance gaps.
+          </p>
+
+          <a class="text-link"
+             href="articles/what-degree-is-an-approach-wedge.html">
+            Read the guide →
+          </a>
+
+        </article>
+
+
+      </div>
+
+    </section>
+
+
+    <section id="about" class="section trust-section">
+
+      <div>
+
+        <p class="eyebrow">
+          Our approach
+        </p>
+
+        <h2>
+          Independent guidance for indoor golfers
+        </h2>
+
+      </div>
+
+
+      <div>
+
+        <p>
+          We explain what matters in clear language and point readers toward
+          useful specialist resources when those tools can help. No venue pays
+          to appear in our guides.
+        </p>
+
+        <a class="text-link"
+           href="articles/golf-simulators-near-me.html#resources">
+          See recommended resources →
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <div>
+
+      <a class="brand" href="index.html">
+
+        <span class="brand-mark" aria-hidden="true">
+          G
+        </span>
+
+        Golf Simulator Guide
+
+      </a>
+
+      <p>
+        Find, play and build with confidence.
+      </p>
+
     </div>
 
-    <hr>
 
-    <h2>Research Studies</h2>
-    <div class="resources">
-        <ul>
-            <li><a href="https://golfsim.co/research/state-of-indoor-golf/">The State of Indoor Golf in America</a></li>
-            <li><a href="https://golfsim.co/research/golf-simulator-pricing/">Golf Simulator Pricing by State</a></li>
-            <li><a href="https://golfsim.co/research/franchise-landscape/">Indoor Golf Franchise Landscape</a></li>
-            <li><a href="https://golfsim.co/research/venue-growth-and-closures/">Venue Growth and Closures by Market</a></li>
-        </ul>
-    </div>
+    <nav aria-label="Footer navigation">
 
-    <h2>Free Tools</h2>
-    <div class="resources">
-        <ul>
-            <li><a href="https://golfsim.co/projector-calculator/">Projector Calculator</a></li>
-            <li><a href="https://golfsim.co/sim-roi-calculator/">Simulator ROI Calculator</a></li>
-            <li><a href="https://golfsim.co/club-gapping-calculator/">Club Gapping Calculator</a></li>
-            <li><a href="https://golfsim.co/smash-factor-calculator/">Smash Factor Calculator</a></li>
-            <li><a href="https://golfsim.co/handicap-calculator/">Handicap Calculator</a></li>
-            <li><a href="https://golfsim.co/launch-monitor-finder/">Launch Monitor Finder</a></li>
-        </ul>
-    </div>
+      <a href="#guides">
+        Guides
+      </a>
 
-    <hr>
+      <a href="#about">
+        About
+      </a>
 
-    <div class="cta-box">
-        <p>Looking for an indoor golf simulator venue? <a href="https://golfsim.co/near-me/">Find a venue near you &rarr;</a></p>
-    </div>
+      <a href="https://golfsim.co/">
+        GolfSim.co
+      </a>
 
-    <footer>
-        <p><a href="https://golfsim.co">GolfSim.co</a> is the largest free directory of indoor golf simulator venues in the US, covering 3,800+ locations across all 50 states.</p>
-    </footer>
+    </nav>
+
+
+    <p>
+      © 2026 Golf Simulator Guide
+    </p>
+
+  </footer>
+
 </body>
 </html>
