@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -16,22 +16,22 @@
 </head>
 <body>
 
-  <nav class="site-nav">
-    <a href="../" class="logo">Golf Simulator Guide</a>
-    <div class="nav-links">
-      <a href="../#explore">Explore</a>
-      <a href="../#guides">Guides</a>
-      <a href="../#about">About</a>
-    </div>
-  </nav>
+  <header class="site-header">
+    <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">G</span> Golf Simulator Guide</a>
+    <nav aria-label="Primary navigation">
+      <a href="../index.html#explore">Explore</a>
+      <a href="../index.html#guides">Guides</a>
+      <a href="../index.html#about">About</a>
+    </nav>
+    <a class="nav-cta" href="https://golfsim.co/learn/use-simulator-data-to-fix-your-swing/">Read the full guide</a>
+  </header>
 
-  <main class="article-page">
-    <a class="back-link" href="../">&larr; All guides</a>
-    <p class="category-label">Swing improvement</p>
-
-    <article>
+  <main class="article-shell">
+    <article class="article">
+      <a class="back" href="../index.html">&larr; All guides</a>
+      <p class="eyebrow" style="margin-top:3rem">Swing improvement</p>
       <h1>How to Use Your Simulator Data to Fix Your Swing</h1>
-      <p>
+      <p class="lead">
         A simulator screen throws a lot of numbers at you after every
         shot. Club speed, ball speed, smash factor, launch angle, spin
         rate, attack angle, club path, face angle, carry distance, and
@@ -40,7 +40,7 @@
         right one for your miss, making one small change, and watching
         it respond.
       </p>
-      <p class="byline">Published November 2026 · Approximately 3 minutes</p>
+      <p class="byline">Published November 2026 &middot; Approximately 3 minutes</p>
 
       <p class="direct-answer">
         <strong>Quick answer:</strong> Pick the one number tied to your
@@ -56,11 +56,11 @@
         <p>
           This page covers the essentials. For the complete breakdown
           with detailed metric explanations, drills, and coaching tips,
-          read the full guide on GolfSim.co.
+          read
+          <a href="https://golfsim.co/learn/use-simulator-data-to-fix-your-swing/">
+            Use Simulator Data to Fix Your Swing on GolfSim.co &rarr;
+          </a>.
         </p>
-        <a href="https://golfsim.co/learn/use-simulator-data-to-fix-your-swing/" class="resource-link">
-          Read the full guide on GolfSim.co &rarr;
-        </a>
       </div>
 
       <h2 id="speed-and-contact">Speed and contact</h2>
@@ -132,45 +132,37 @@
         instructor who works with live data can identify which number to
         tackle first and how to change it without creating new problems.
         Indoor lessons with a launch monitor running give you immediate
-        feedback on every adjustment.
+        feedback on every adjustment. For the complete metric-by-metric
+        breakdown, drills, and tips for turning data into real
+        improvement, visit
+        <a href="https://golfsim.co/learn/use-simulator-data-to-fix-your-swing/">
+          <strong>the full guide on GolfSim.co</strong>
+        </a>.
       </p>
-
-      <div class="resource-box" style="margin-top:2rem;">
-        <h3>Read the full guide</h3>
-        <p>
-          For the complete metric-by-metric breakdown, drills, and tips
-          for turning data into real improvement, visit the full guide
-          on GolfSim.co.
-        </p>
-        <a href="https://golfsim.co/learn/use-simulator-data-to-fix-your-swing/" class="resource-link">
-          Read the full guide on GolfSim.co &rarr;
-        </a>
-      </div>
     </article>
 
-    <nav class="toc" aria-label="On this page">
-      <h2>On this page</h2>
-      <ol>
-        <li><a href="#speed-and-contact">Speed and contact</a></li>
-        <li><a href="#launch-and-spin">Launch and spin</a></li>
-        <li><a href="#swing-direction">Swing direction</a></li>
-        <li><a href="#landing-results">Landing results</a></li>
-        <li><a href="#diagnosing-slice-hook">Diagnosing a slice or hook</a></li>
-        <li><a href="#one-number-at-a-time">Focus on one number</a></li>
-        <li><a href="#coaching">When to get a coach</a></li>
-      </ol>
-    </nav>
+    <aside class="toc" aria-label="Article contents">
+      <strong>On this page</strong>
+      <a href="#speed-and-contact">Speed and contact</a>
+      <a href="#launch-and-spin">Launch and spin</a>
+      <a href="#swing-direction">Swing direction</a>
+      <a href="#landing-results">Landing results</a>
+      <a href="#diagnosing-slice-hook">Diagnosing a slice or hook</a>
+      <a href="#one-number-at-a-time">Focus on one number at a time</a>
+      <a href="#coaching">When to get a coach involved</a>
+    </aside>
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <p class="footer-brand">Golf Simulator Guide</p>
-      <nav class="footer-links">
-        <a href="../#guides">Guides</a>
-        <a href="https://golfsim.co">GolfSim.co</a>
-      </nav>
-      <p class="copyright">&copy; 2026 Golf Simulator Guide</p>
+  <footer>
+    <div>
+      <a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">G</span> Golf Simulator Guide</a>
+      <p>Find, play and build with confidence.</p>
     </div>
+    <nav aria-label="Footer navigation">
+      <a href="../index.html#guides">Guides</a>
+      <a href="https://golfsim.co/">GolfSim.co</a>
+    </nav>
+    <p>&copy; 2026 Golf Simulator Guide</p>
   </footer>
 
 </body>
